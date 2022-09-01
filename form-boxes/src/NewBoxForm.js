@@ -1,8 +1,7 @@
 
 import { useState } from "react";
-import createBox from "./BoxList";
 
-function NewBoxForm() {
+function NewBoxForm({createBox}) {
 
 
   const initialState = {
